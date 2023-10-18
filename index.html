@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id="main_container">
+    <div class="main">
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+       <button class="child"></button>
+    </div>
+    <div id="control">
+        <div id="header">Tic Tac Toe</div>
+        <button class="button open-button">Start!</button>
+        <dialog class="modal" id="modal">
+        <h1>Welcome to Tic Tac Toe!</h1>
+        <p style="font-size: 24px;">Enter Details</p>
+        <form class="form" method="dialog">
+            <label for="name1">Player 1 Name: <input id="name1" type="text"></label>
+            <label for="marker1">
+                Select Marker:
+                <select class="select" id="marker1">
+                    <option value="X">X</option>
+                    <option value="O">O</option>
+                </select>
+            </label>
+
+            <label for="name2">Player 2 Name: <input id="name2" type="text"></label>
+            <label for="marker2">
+                Select Marker:
+                <select class="select" id="marker2">
+                    <option value="X">X</option>
+                    <option value="O">O</option>
+                </select>
+            </label>
+            
+            
+            <button class="button" id="submit" type="submit">Play!</button>
+        </form>
+        </dialog>
+    </div>
+</div>
+
+<div class="gameStatus">
+    <div id="playerOne">
+        
+    </div>
+    <div id="playerTwo">
+        
+    </div>
+</div>
+
+<dialog id="winnerModal">
+
+<button id="refresh" class="button">Restart</button>
+
+</dialog>
+    <script src="ttt.js" defer></script>
+</body>
+</html>
