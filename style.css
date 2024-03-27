@@ -1,95 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat&family=Oswald:wght@700&family=Poppins:wght@900&display=swap');
+
 
 body{
-    font-family: 'Tilt Neon', sans-serif;
+    margin: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
 }
 
-#main_container{
-     display:grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1;
-}
-
-
-.main{
-    grid-column-start: 1;
-    grid-column-end: 2 ;
-    display: grid;
-    grid-template-columns: repeat(3, 15vw);
-    grid-template-rows: repeat(3, 20vh);
-    transform: translateX(10%);
-    transform: translateY(10%);
-
-}
-
-.child{
-    background-color: rgb(76, 94, 94);
-    font-size: 48px;
-    color: black;
-    border: 3px solid black;
-}
-
-#control{
-    grid-column-start: 2;
-    grid-column-end: 3 ;
-    transform: translateX(10%);
-    transform: translateY(10%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#header{
-    font-size: 64px;
-
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-}
-
-.form > label{
-    padding: 10px;
-    font-size: 24px;
-}
-
-.form > label > input{
-    padding: 6px;
-    font-size: 16px;
-
-}
-
-.select{
-    padding: 6px;
-    font-size: 16px;
-}
-
-#submit{
-    width: 50%;
-    font-size: 16px;
-    transform: translateX(50%);
-    font-size: 24px;
-}
-
-
-
-.button{
-    background-color: rgb(76, 94, 94);
-    font-size: 24px;
-    padding: 6px;
-    border: 3px solid black;
-    border-radius: 6px;
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(111 162 195);
+    margin: 0;
+    padding: 0.5rem 0;
+    font-family: "Edu NSW ACT Foundation", cursive;
     color: white;
 }
 
-.gameStatus{
-    transform: translateY(10vh);
-    font-size: 36px;
+.main{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.buttons{
+
+    font-family: "Edu NSW ACT Foundation", cursive;
+    height: 35px;
+    width: 35px;
+
+    background-color: #5f9292;
+    border: 1px solid #1e4b56;
+
+    color: white;
+}
+
+.turn--display{
+    margin-bottom: 1rem;
+}
+
+.row{
+    margin-bottom: 0.25rem;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background-color: #accbcb;
+}
+
+.reset{
+    background-color: #accbcb;
+    margin-top: 1rem;
+    border: 0.3px solid black;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 0.6rem;
+}
+
+.reset:hover{
+    cursor: pointer;
+    background-color: #dbe8e8;
 }
 
 
-#winnerModal{
-    font-size: 24px;
-}
+
