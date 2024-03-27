@@ -2,6 +2,7 @@
 
 
 body{
+    font-size: 48px;
     margin: 0;
     background-image: url('background.jpg');
     background-size: cover;
@@ -20,27 +21,28 @@ body{
 .main{
     font-family: "Edu NSW ACT Foundation", cursive;
     text-align: center;
-    padding: 3rem 0;
+    padding: 10rem 0;
 }
 
 .buttons{
 
     font-family: "Edu NSW ACT Foundation", cursive;
-    height: 35px;
-    width: 35px;
+    height: 130px;
+    width: 130px;
 
+    font-size: 48px;
     background-color: #5f9292;
-    border: 1px solid #1e4b56;
+    border: 3px solid #1e4b56;
 
     color: white;
 }
 
 .turn--display{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .row{
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .buttons:hover{
@@ -49,11 +51,12 @@ body{
 }
 
 .reset{
+
     background-color: #accbcb;
-    margin-top: 1rem;
-    border: 0.3px solid black;
+    margin-top: 2rem;
+    border: 1px solid black;
     font-family: "Edu NSW ACT Foundation", cursive;
-    font-size: 0.6rem;
+    font-size: 2rem;
 }
 
 .reset:hover{
