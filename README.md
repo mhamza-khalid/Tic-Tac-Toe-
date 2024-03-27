@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-
 
-A Tic Tac Toe Game made using vanilla JavaScript. Players can enter names and select own markers!
+A Tic Tac Toe Game made using vanilla JavaScript. I made use of factory functions and objects to control the logic of the game.
 
 Live Demo -->  https://mhamza-khalid.github.io/Tic-Tac-Toe-/
 
