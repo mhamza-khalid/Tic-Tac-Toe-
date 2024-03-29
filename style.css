@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat&family=Oswald:wght@700&family=Poppins:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat&family=Oswald:wght@700&family=Poppins:wght@900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
     font-size: 48px;
@@ -14,24 +13,24 @@ body{
     background-color: rgb(111 162 195);
     margin: 0;
     padding: 0.5rem 0;
-    font-family: "Edu NSW ACT Foundation", cursive;
+    font-family: "Rubik", sans-serif;
     color: white;
 }
 
 .main{
-    font-family: "Edu NSW ACT Foundation", cursive;
+    font-family: "Rubik", sans-serif;
     text-align: center;
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 .buttons{
 
-    font-family: "Edu NSW ACT Foundation", cursive;
+    font-family: "Rubik", sans-serif;
     height: 130px;
     width: 130px;
 
     font-size: 48px;
-    background-color: #5f9292;
+    background-color:#557979;
     border: 3px solid #1e4b56;
 
     color: white;
@@ -53,9 +52,9 @@ body{
 .reset{
 
     background-color: #accbcb;
-    margin-top: 2rem;
+    margin-top: 6rem;
     border: 1px solid black;
-    font-family: "Edu NSW ACT Foundation", cursive;
+    font-family: "Rubik", sans-serif;
     font-size: 2rem;
 }
 
@@ -64,5 +63,85 @@ body{
     background-color: #dbe8e8;
 }
 
+
+#player1Name{
+    padding: 0.5rem;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+}
+
+#player2Name{
+    padding: 0.5rem;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+#markerOne{
+    padding: 0.5rem;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+}
+
+#markerTwo{
+    padding: 0.5rem;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+}
+.form{
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.restart{
+    background-color: #accbcb;
+    margin-top: 6rem;
+    border: 1px solid black;
+    font-family: "Rubik", sans-serif;
+    font-size: 2rem;
+}
+
+.buttons--container{
+    display: flex;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.close-button:hover{
+    cursor: pointer;
+    background-color: #dbe8e8;
+}
+
+.restart:hover{
+    cursor: pointer;
+    background-color: #dbe8e8;
+}
+
+.close-button{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 0.4em;
+    background-color: #accbcb;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    font-family: "Rubik", sans-serif;
+    font-size: 2rem;
+}
 
 
