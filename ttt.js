@@ -282,6 +282,9 @@ cells.forEach((cell)=>{
 
         let row = event.target.getAttribute('row');
         let column = event.target.getAttribute('column');
+
+        if (board.getBoard()[row][column].getValue() == 0){
+
         let playerMarker = play.getActivePlayer().marker;
         
         let display = document.querySelector('.turn--display');
@@ -313,6 +316,8 @@ cells.forEach((cell)=>{
             })
             play.setTurnsNo();
         }
+      }
+      else {return}
     })
 })
 
