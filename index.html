@@ -10,28 +10,67 @@
     
     <div class="header">Tic Tac Toe</div>
 
-    <div class="main">
-        <div class="turn--display">Lets Play!</div>
+    <dialog class="modal" id="modal">
+        <form class="form" method="dialog">
+            <div>
+            <label for="player1Name" class="name">Player 1 Name:</label>
+            <input required type="text" id="player1Name">
+            <select id="markerOne">
+                <option value="O">O</option>
+                <option value="X">X</option>
+            </select>
+            </div>
 
-        <div class="board">
-            <div class="row">
-                <button class='buttons' row="0" column="0">&nbsp</button>
-                <button class='buttons' row="0" column="1">&nbsp</button>
-                <button class='buttons' row="0" column="2">&nbsp</button>
+            <div>
+            <label for="player2Name" class="name">Player 2 Name:</label>
+            <input required type="text" id="player2Name">
+            <select id="markerTwo">
+                <option value="O">O</option>
+                <option value="X">X</option>
+            </select>
             </div>
-            <div class="row">
-                <button class='buttons' row="1" column="0">&nbsp</button>
-                <button class='buttons' row="1" column="1">&nbsp</button>
-                <button class='buttons' row="1" column="2">&nbsp</button>
+        <button type="submit" value="Submit" class="button close-button">Play!</button>
+        </form>
+    </dialog>
+
+    <div class="main">
+        <div class="turn--display"></div>
+
+        <div class="container">
+            <div class="player1Card">
+                <div id="name1"></div>
+                <div id="marker1"></div>
+                <div id="score1"></div>
             </div>
-            <div class="row">
-                <button class='buttons' row="2" column="0">&nbsp</button>
-                <button class='buttons' row="2" column="1">&nbsp</button>
-                <button class='buttons' row="2" column="2">&nbsp</button>
+            <div class="board">
+                <div class="row">
+                    <button class='buttons' row="0" column="0">&nbsp</button>
+                    <button class='buttons' row="0" column="1">&nbsp</button>
+                    <button class='buttons' row="0" column="2">&nbsp</button>
+                </div>
+                <div class="row">
+                    <button class='buttons' row="1" column="0">&nbsp</button>
+                    <button class='buttons' row="1" column="1">&nbsp</button>
+                    <button class='buttons' row="1" column="2">&nbsp</button>
+                </div>
+                <div class="row">
+                    <button class='buttons' row="2" column="0">&nbsp</button>
+                    <button class='buttons' row="2" column="1">&nbsp</button>
+                    <button class='buttons' row="2" column="2">&nbsp</button>
+                </div>
+            </div>
+            <div class="player2Card">
+                <div id="name2"></div>
+                <div id="marker2"></div>
+                <div id="score2"></div>
             </div>
         </div>
 
-        <button class="reset">Reset</button>
+        <div class="buttons--container">
+            <button class="reset">Reset</button>
+            <button class="restart">Restart</button>
+        </div>
+        
     </div>
     <script src="ttt.js"></script>
 </body>
